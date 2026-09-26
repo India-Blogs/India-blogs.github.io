@@ -1,10 +1,11 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Poetry Collection | William Wordsworth & मैथिलीशरण गुप्त</title>
+    <title>Poetry Collection</title>
 
     <style>
         * {
@@ -79,31 +80,53 @@
             background: #fffdf7;
         }
 
-        /* Separate section for Maithili Sharan Gupt */
+        /* Author Sections */
+
+        .author-section {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            padding: 35px 25px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        .wordsworth-section {
+            background: linear-gradient(135deg, #b9d8a8, #e9e8bd);
+            border-left: 6px solid #719b62;
+        }
 
         .gupt-section {
             margin-top: 80px;
-            padding-top: 20px;
         }
 
-        .section-header {
-            text-align: center;
-            margin-bottom: 40px;
-            padding: 35px 25px;
+        .gupt-section-header {
             background: linear-gradient(135deg, #e7d6b5, #f5ead5);
-            border-radius: 15px;
             border-left: 6px solid #9b6b35;
         }
 
-        .section-header h2 {
+        .author-section h2 {
             margin: 0;
-            color: #654321;
             font-size: 32px;
         }
 
-        .section-header p {
+        .wordsworth-section h2 {
+            color: #456b3c;
+        }
+
+        .gupt-section-header h2 {
+            color: #654321;
+        }
+
+        .author-section p {
             margin: 10px 0 0;
             font-size: 17px;
+        }
+
+        .wordsworth-section p {
+            color: #405740;
+        }
+
+        .gupt-section-header p {
             color: #705c45;
         }
 
@@ -113,6 +136,11 @@
 
         .gupt-poem h3 {
             color: #765126;
+        }
+
+        .gupt-special {
+            border-left-color: #d49a4a;
+            background: #fffdf7;
         }
 
         footer {
@@ -140,7 +168,7 @@
                 font-size: 16px;
             }
 
-            .section-header h2 {
+            .author-section h2 {
                 font-size: 26px;
             }
         }
@@ -151,8 +179,8 @@
 
 <header>
     <h1>Poetry Collection</h1>
-    <h2>William Wordsworth</h2>
-    <p>A collection celebrating the beauty and wonder of nature</p>
+    <h2>Timeless Words, Endless Inspiration</h2>
+    <p>A collection of beautiful poems celebrating nature, life, culture, and humanity</p>
 </header>
 
 
@@ -161,6 +189,12 @@
 <!-- ========================================================= -->
 
 <div class="container">
+
+    <div class="author-section wordsworth-section">
+        <h2>William Wordsworth</h2>
+        <p>A collection celebrating the beauty and wonder of nature</p>
+    </div>
+
 
     <div class="poem">
         <h3>1. I Wandered Lonely as a Cloud</h3>
@@ -431,12 +465,9 @@ And all her living creatures.
 
 <div class="container gupt-section">
 
-    <div class="section-header">
+    <div class="author-section gupt-section-header">
         <h2>मैथिलीशरण गुप्त की कविताएँ</h2>
-
-        <p>
-            राष्ट्रकवि मैथिलीशरण गुप्त की चुनिंदा रचनाएँ
-        </p>
+        <p>राष्ट्रकवि मैथिलीशरण गुप्त की चुनिंदा रचनाएँ</p>
     </div>
 
 
@@ -474,7 +505,7 @@ And all her living creatures.
     </div>
 
 
-    <div class="poem gupt-poem">
+    <div class="poem gupt-special">
         <h3>3. मेरा प्यारा भारत</h3>
         <div class="author">मैथिलीशरण गुप्त</div>
 
@@ -620,9 +651,10 @@ And all her living creatures.
 
 
 <footer>
-    <p>Nature is a gift worth protecting. 🌿</p>
-    <p>Poetry collection inspired by the works of William Wordsworth.</p>
+    <p>Poetry is a timeless expression of thought, nature, culture, and humanity. 🌿</p>
+    <p>A collection of poems from different literary traditions.</p>
 </footer>
 
 </body>
 </html>
+```
